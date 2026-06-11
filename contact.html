@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact | MH Praktijk voor Supervisie</title>
+    <meta name="description" content="Neem contact op met MH Praktijk voor vragen of een vrijblijvende kennismaking.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#inhoud">Naar inhoud</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html" aria-label="MH Praktijk Supervisie homepage">
+          <span class="logo-mark" aria-hidden="true">MH</span>
+          <span class="logo-text">
+            <span class="logo-name">Praktijk voor Supervisie</span>
+          </span>
+        </a>
+        <input class="nav-toggle-input" type="checkbox" id="nav-toggle" aria-label="Menu">
+        <label class="menu-toggle" for="nav-toggle"><span aria-hidden="true"></span></label>
+        <nav class="site-nav" id="site-nav" aria-label="Hoofdnavigatie">
+          <ul>
+            <li><a href="over-mij.html" class="site-nav-link">Over mij</a></li>
+            <li><a href="supervisie.html" class="site-nav-link">Supervisie</a></li>
+            <li><a href="leertherapie.html" class="site-nav-link">Leertherapie</a></li>
+            <li><a href="procedure.html" class="site-nav-link">Procedure</a></li>
+            <li><a href="tarieven.html" class="site-nav-link">Tarieven</a></li>
+            <li><a href="contact.html" class="site-nav-link" aria-current="page">Contact</a></li>
+            <li><a class="button" href="contact.html">Aanmelden</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main id="inhoud">
+      <section class="page-hero" aria-labelledby="page-title">
+        <div class="page-intro">
+          <p class="eyebrow">Aanmelden of kennismaken</p>
+          <h1 id="page-title">Contact</h1>
+          <p class="lead">Voor vragen of een vrijblijvende kennismaking kun je mailen of het formulier invullen.</p>
+        </div>
+      </section>
+      <section class="content-section">
+        <div class="contact-layout">
+          <article class="copy">
+            <p>Voor vragen of een vrijblijvende kennismaking kan je mailen naar: <a href="mailto:supervisie@maaikehabra.nl">supervisie@maaikehabra.nl</a></p>
+            <address>
+              <dl class="contact-list">
+                <div>
+                  <dt>Adresgegevens</dt>
+                  <dd>MH Praktijk voor Supervisie<br>Kloosterlaan 168<br>4811 EE Breda</dd>
+                </div>
+              </dl>
+            </address>
+          </article>
+          <form class="form soft-panel" action="mailto:supervisie@maaikehabra.nl" method="post" enctype="multipart/form-data">
+            <p class="form-note">Of vul onderstaand contactformulier in:</p>
+            <div class="field">
+              <label for="name">Naam</label>
+              <input id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" autocomplete="email" required>
+            </div>
+            <div class="field">
+              <label for="subject">Onderwerp</label>
+              <input id="subject" name="subject" value="Vrijblijvende kennismaking" required>
+            </div>
+            <div class="field">
+              <label for="message">Bericht</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button class="button" type="submit">Verstuur bericht</button>
+            <p class="form-note">Bij verzenden opent je mailprogramma met het ingevulde bericht.</p>
+          </form>
+        </div>
+        <figure class="photo-frame page-photo">
+          <img src="assets/img/contact.jpg" alt="">
+        </figure>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <p>&copy; 2026 MH Praktijk voor Supervisie</p>
+      </div>
+    </footer>
+  </body>
+</html>
